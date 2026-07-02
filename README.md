@@ -19,6 +19,6 @@ The 100k resistors to ground are optional and need not be included unless some p
 
 Note that builders have found some sensitivity to the values of the control line series resistors (the 100 Ohms ones in this design). When a NU180 equipped 3458A throws errors, sometimes changing those values up or down, e.g. to 33 or 220 Ohms, can help. Start with the four switch control lines associated with the 80k resistors. 
 
-There is extensive discussion of this project in the metrology section of EEVblog. 
+There is extensive discussion of this project in the metrology section of EEVblog. Many people contributed their knowledge and experience towards its success, including MiDi, DB4UCH, wanghar, Kleinstein and others. 
 
 Good luck! 
