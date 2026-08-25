@@ -5,11 +5,13 @@ Briefly, the custom "U180" hybrid in the 3458A is infamously prone to excessive 
 
 Some notes:
 
+The new Version 1.1 files are "v11". 
+
 The layout requires 6 layers. Choose a thin stackup - that is, thinner core layers - if available. That will provide better coupling to the internal ground planes. 
 
 Choose the best resistors you can find, especially for their TCR (temperature coefficient of resistance). In particular, the use of low TCR bulk-foil resistors for at least the 50k and most-critical 80k's are recommended for best temperature stability. 
 
-The footprints for the critical 50k and 80k's include overlaps, which will result in DRC errors or warnings. There is probably a better way to manage this, but this was deliberate and the errors are expected. The overlapping footprints allow choosing either standard 805 resistors, or large 2512 resistors, or else through-hole resistors. The standard resistor option is for people building boards on a budget or for testing purposes. The latter two options are intended for builders who are using bulk-foil resistors (80k's only come in 2512 size). You can edit the files to delete the unused footprints or else leave them in place. 
+The footprints for the critical 80k's include overlapping footprints allow choosing either standard 805 resistors, or large 2512 resistors, or else through-hole resistors (same for the 50k). These are intended for builders who are using bulk-foil resistors (80k's only come in 2512 size). You can edit the files to delete the unused footprints or else leave them in place. 
 
 Another option for the 50k and 80k resistors is to edit the files to substitute a small array of series or parallel resistors. There's room for up to 4 each, e.g. 4x 20k in series for the 80k's, etc. 
 
